@@ -501,7 +501,7 @@ DiD.ev2 <- aggte(DiD.fit2,type="dynamic",na.rm=TRUE)
 
 pdf("DiDEventPlot2-25.pdf",7,4)
 par(mar=c(4,4,2,2))
-ggdid(DiD.ev1,xgap=10)
+ggdid(DiD.ev2,xgap=10)
 dev.off()
 
 # Total group effects:
